@@ -36,7 +36,7 @@ namespace Backend_Teste_Domain.Services
 
         public void ComprarAcao(ComprarAcao request)
         {
-            throw new NotImplementedException();
+            CompraAcao(request);
         }
 
         public Cotacao CotacaoAcao()
